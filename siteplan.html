@@ -1,175 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    
-  <head>
-    <meta charset="utf-8">
-    <title>Site Plan</title>
-    <link type="text/css" rel="stylesheet" href="styles/siteplan.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFC News Hub</title>
+  <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+  <header>
+    <img src="ufc.png" alt="UFC News Hub Logo" class="logo">
+    <h1>Welcome to UFC News Hub</h1>
+    <p>Your ultimate source for all things UFC - from the latest fight news and rankings to exclusive fan interactions and much more.</p>
+  </header>
 
-  <body>
-    <header>
-      <h1>[UFC News Hub] Site Plan</h1>
-      <h2>Caleb White</h2>
-      <h2>WDD 130-[01]</h2>
-      <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
-    </header>
-    <main>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#fight-news">UFC Fight News</a>
+    <a href="#fighter-rankings">UFC Fighter Rankings</a>
+  </nav>
 
-      <!-- ------------------------Steps 2-3------------------------------ -->
-      <hr>
-      <h2>Overview</h2>
-      <h3>Purpose</h3>
-      <p>[Have you ever wondered if there was a place you could go to that has everything UFC? Well, this is the place. Whether its the craziest knockouts, rankings or press conferences, we have it. Our sole purpose it to please the fans and give them the most accessible place to entertain themselves. ]</p>  <!-- change this -->
+  <main>
+    <section id="home">
+      <h2>Fan Interaction</h2>
+      <p>At UFC News Hub, we value the opinions and contributions of our passionate community. Join in on the discussions, vote on matchups, and share your thoughts on the latest UFC news.</p>
 
-
-      <h3>Audience</h3>
-      <p>[Whether you are a beginner or a veteran or anything in between, this website is the place for you! Your experience as an MMA fan will expand beyond anything you could ever imagine!]</p>  <!-- change this -->
-
-      <hr>
-      <h2>Branding</h2>
-      <h3>Website Logo</h3>
-      <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-      <img src="ufc.png" alt="Logo image">
-      <hr>
-      <h2>
-        Style Guide
-      </h2>
-
-      <!-- ------------------------Steps 4-8------------------------------ -->
-
-      <h3>
-        Color Palette
-      </h3>
-      <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn. You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
-
-      <table class="colors">
-        <tr><th>Primary</th><th>Secondary</th><th>Accent 1</th><th>Accent 2</th></tr>
-        <!-- Switch to the site-plan.css file and change your colors there. -->
-        <tr><td class="primary">[#41393e]</td><td class="secondary">[#deb841]</td><td class="accent1">[#e3170a]</td><td class="accent2">[#d8dbe2]</td></tr>
-      </table>
-
-      <!-- ------------------------Step 9------------------------------ -->
-
-      <h3>
-        Typography
-      </h3>
-      <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
-
-      <h4>
-        Heading Font: [Math Bold]  <!-- change this -->
-      </h4>
-      <h4>
-        Paragraph Font: [Mono Upper]  <!-- change this -->
-      </h4>
-      <h3>
-        Normal paragraph example
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <h3>
-        Colored paragraph example
-      </h3>
-      <p class="colored">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
-
-      <!-- ------------------------Step 10------------------------------ -->
-
-      <h3>
-        Navigation
-      </h3>
-      <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Page2</a>
-        <a href="#">Page3</a>
-      </nav>
-      <hr>
-      <h2>
-        Site Map
-      </h2>
-      <div class="sitemap">
-        <div class="sm-home">
-          Home
-        </div>
-        <div class="sm-page2">
-          [Page2] <!-- change this -->
-        </div>
-        <div class="sm-page3">
-          [Page3]  <!-- change this -->
-        </div>
-
-        <div class="top">
-          &nbsp;
-        </div>
-        <div class="left">
-          &nbsp;
-        </div>
-        <div class="right">
-          &nbsp;
-        </div>
-
+      <div class="image-gallery">
+        <img src="max_holloway.jpg" alt="Fan Interaction" class="responsive-image">
+        <img src="volk_topuria.webp" alt="UFC Event" class="responsive-image">
       </div>
 
-      <!-- --------Content Section -------------- -->
-      <hr>
-      <h2>
-        Content
-      </h2>
-      <h3>Home page</h3>
-      <p>
-        [Written copy for the home page here]
-      </p>
-      <p>Images for the Home page</p>
-        <img src="#" alt="image for homepage">
-        <img src="#" alt="image for homepage">
+      <h3>Poll: Who Will Win UFC 300?</h3>
+      <p>Cast your vote and let us know who you think will walk away with the victory at UFC 300!</p>
+      <form action="#">
+        <label for="fighterA">Fighter A</label>
+        <input type="radio" id="fighterA" name="winner" value="fighterA">
+        
+        <label for="fighterB">Fighter B</label>
+        <input type="radio" id="fighterB" name="winner" value="fighterB">
+        
+        <button type="submit">Submit Vote</button>
+      </form>
 
-      </ul>
-      <h3>[Page 2]</h3>
-      <p>
-        [Written copy for the Page 2 here]
-      </p>
-      <p>Images for the Page 2</p>
-        <img src="#" alt="image for page">
-        <img src="#" alt="image for page">
+      <h3>Submit Your Favorite UFC Moment</h3>
+      <p>Share your favorite UFC moment with us! Whether it's a knockout, submission, or an epic fight, we want to hear about it.</p>
+      <textarea placeholder="Enter your favorite moment..." rows="4" cols="50"></textarea>
+      <button type="submit">Submit Moment</button>
+    </section>
 
-      </ul>
-      <h3>[Page 3]</h3>
-      <p>
-        [Written copy for the Page 3 here]
-      </p>
-      <p>Images for the Page 3</p>
-        <img src="#" alt="image for page3">
-        <img src="#" alt="image for page3">
+    <section id="fight-news">
+      <h2>UFC Fight News</h2>
+      <p>Your go-to source for the latest UFC fight updates, events, and previews. Stay updated on upcoming fights, fighter stats, predictions, and much more.</p>
 
-      </ul>
-      <hr>
-      <h2>
-        Wireframes
-      </h2>
-      <p>
-        Create three wireframes for your site. One for each page and list them here</p>
+      <div class="image-gallery">
+        <img src="omalley_vera.webp" alt="UFC Fight News" class="responsive-image">
+        <img src="fight_preview.webp" alt="UFC Previews" class="responsive-image">
+      </div>
 
-      <h3>Home</h3>
-      <p>         
-        [Any additional details about home that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="home page wireframe">
+      <section class="upcoming-events">
+        <h3>Upcoming UFC Events</h3>
+        <p>The UFC calendar is always packed with exciting events, from major pay-per-view shows to smaller fight nights that highlight up-and-coming fighters. Here's a look at some of the upcoming UFC events:</p>
+        <ul>
+          <li>
+            <strong>UFC 300</strong>
+            <p>April 15, 2024 - Las Vegas, NV</p>
+            <p>This event is one of the most anticipated of the year, featuring some of the best fighters in the world. The main event is a highly-anticipated bout between two of the sport's biggest stars. Fans are eagerly discussing potential matchups, and tickets are already selling fast.</p>
+          </li>
+          <li>
+            <strong>UFC Fight Night 275</strong>
+            <p>May 5, 2024 - New York City, NY</p>
+            <p>This event will feature several key matchups, with a focus on rising stars. Fans are particularly excited to see the battle between fighters from different weight classes.</p>
+          </li>
+          <li>
+            <strong>UFC 301</strong>
+            <p>July 10, 2024 - Los Angeles, CA</p>
+            <p>UFC 301 is shaping up to be another massive event, with two title fights slated for the main card. The anticipation is building for what promises to be an unforgettable night of fights.</p>
+          </li>
+        </ul>
+      </section>
+    </section>
 
-      <h3>[Page 2]</h3>
-      <p>         
-        [Any additional details about page 2 that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="page 2 wireframe">
+    <section id="fighter-rankings">
+      <h2>UFC Fighter Rankings</h2>
+      <p>Stay up to date with the UFC's official rankings, which are based on fighter performance and matchups. Here's a look at the current top-ranked fighters in each division:</p>
 
-      <h3>[Page 3]</h3>
-      <p>         
-        [Any additional details about page 3 that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="page 3 wireframe">
-    </main>
-  </body>
+      <div class="image-gallery">
+        <img src="khabib.jpg" alt="UFC Rankings" class="responsive-image">
+        <img src="fighter_profile.webp" alt="Fighter Profile" class="responsive-image">
+      </div>
 
+      <section class="rankings">
+        <h3>Current Rankings</h3>
+        <ul>
+          <li><strong>Flyweight Champion:</strong> Fighter A (25-1, 5 KO, 10 Submissions)</li>
+          <li><strong>Bantamweight Champion:</strong> Fighter B (20-4, 12 KO, 6 Submissions)</li>
+          <li><strong>Middleweight Champion:</strong> Fighter C (22-5, 14 KO, 4 Submissions)</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 UFC News Hub. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
