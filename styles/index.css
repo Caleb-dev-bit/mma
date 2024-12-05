@@ -80,14 +80,14 @@ h3 {
 
 .image-gallery {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
   margin: 20px 0;
-  align-items: center;
 }
 
 .responsive-image {
-  max-width: 60%;
+  max-width: 45%;
   height: auto;
   border: 2px solid var(--accent1-color);
   border-radius: 8px;
