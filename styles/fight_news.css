@@ -53,14 +53,18 @@
   }
   
   nav ul li a {
-    color: var(--secondary-color);
+    color: var(--secondary-color); 
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
+    padding: 10px 15px; 
   }
   
   nav ul li a:hover {
-    color: var(--accent1-color);
+    color: var(--accent1-color); 
+    background-color: var(--primary-color);
+    border-radius: 5px; 
   }
+  
   
   main {
     padding: 20px;
